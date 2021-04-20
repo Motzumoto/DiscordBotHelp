@@ -46,4 +46,4 @@ class Blacklist(commands.Cog,name='blacklist',command_attrs=dict(hidden=True)):
             
 
 def setup(bot):
-    bot.add_cog(Admin(bot))
+    bot.add_cog(Blacklist(bot))
